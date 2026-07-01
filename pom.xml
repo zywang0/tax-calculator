@@ -3,17 +3,17 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.study</groupId>
-    <artifactId>test</artifactId>
+    <artifactId>tax-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>test-api</module>
-        <module>test-app</module>
-        <module>test-domain</module>
-        <module>test-trigger</module>
-        <module>test-infrastructure</module>
-        <module>test-types</module>
+        <module>tax-calculator-api</module>
+        <module>tax-calculator-app</module>
+        <module>tax-calculator-domain</module>
+        <module>tax-calculator-trigger</module>
+        <module>tax-calculator-infrastructure</module>
+        <module>tax-calculator-types</module>
     </modules>
 
     <properties>
@@ -150,27 +150,27 @@
             <!-- 工程模块 -->
             <dependency>
                 <groupId>org.study</groupId>
-                <artifactId>test-domain</artifactId>
+                <artifactId>tax-calculator-domain</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.study</groupId>
-                <artifactId>test-infrastructure</artifactId>
+                <artifactId>tax-calculator-infrastructure</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.study</groupId>
-                <artifactId>test-types</artifactId>
+                <artifactId>tax-calculator-types</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.study</groupId>
-                <artifactId>test-trigger</artifactId>
+                <artifactId>tax-calculator-trigger</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
             <dependency>
                 <groupId>org.study</groupId>
-                <artifactId>test-api</artifactId>
+                <artifactId>tax-calculator-api</artifactId>
                 <version>1.0-SNAPSHOT</version>
             </dependency>
         </dependencies>

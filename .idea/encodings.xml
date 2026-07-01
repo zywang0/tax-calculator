@@ -3,17 +3,17 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-app/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-app/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-domain/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-domain/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-infrastructure/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-infrastructure/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-trigger/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-trigger/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-types/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/test-types/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-app/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-domain/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-domain/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-infrastructure/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-infrastructure/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-trigger/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-trigger/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-types/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tax-calculator-types/src/main/resources" charset="UTF-8" />
   </component>
 </project>

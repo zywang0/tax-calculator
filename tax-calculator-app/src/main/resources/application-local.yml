@@ -1,0 +1,31 @@
+server:
+  port: 8091
+
+thread:
+  pool:
+    executor:
+      config:
+        core-pool-size: 4
+        max-pool-size: 8
+        keep-alive-time: 10
+        block-queue-size: 100
+        policy: CallerRunsPolicy
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.redisson.spring.starter.RedissonAutoConfiguration
+      - org.apache.rocketmq.spring.autoconfigure.RocketMQAutoConfiguration
+
+dubbo:
+  application:
+    name: tax-calculator-local
+  registry:
+    address: N/A
+  scan:
+    base-packages: org.study.trigger.rpc
+
+logging:
+  level:
+    root: info
+  config: classpath:logback-spring.xml

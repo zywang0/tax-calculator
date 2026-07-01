@@ -287,7 +287,7 @@ LOCK TABLES `users` WRITE;
 
 INSERT INTO `users` (`username`, `password`, `enabled`)
 VALUES
-	('nacos','$2a$10$EuWPZHzz32dJN7jexM34MOeYirDdFAZm2kuWj7VEOJhhZkDrxfvUu',1);
+	('nacos','REPLACE_WITH_BCRYPT_PASSWORD_HASH',1);
 
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
